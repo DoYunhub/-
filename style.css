@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* span {
+  margin-top: 10px;
+  margin-left: 10px;
+  
+} */
+
+h1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: white;
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.bg-img {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  right: 0.1%;
+  top: 1%;
+  opacity: 0.2;
+}
+.top {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(45deg, rgb(0, 71, 187), rgb(0, 182, 79));
+  overflow: hidden;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  top: 250px;
+}
+
+.intro {
+  width: 200px;
+  height: 50px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 10px 10px 0px 0px;
+  background: rgb(164, 188, 221);
+  box-sizing: border-box;
+  margin-left: 100px;
+}
+.intro:hover {
+  background: white;
+  color: black;
+}
+.about:hover {
+  background: white;
+  color: black;
+}
+.about {
+  width: 200px;
+  height: 50px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 10px 10px 0px 0px;
+  background: rgb(164, 188, 221);
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+.git-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+h2 {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.P-container {
+  margin-left: 100px;
+}
+.travel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 550px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px, rgba(0, 0, 0, 0.05) 0px 0px 3px;
+}
+.project {
+  display: flex;
+}
+
+.pro-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.pro-subTitle {
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 0px 0px 10px 10px;
+}
+.travel-img {
+  width: 550px;
+  height: 250px;
+}
+
+.fe {
+  width: 70px;
+  align-items: center;
+  padding: 2px 10px 3px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgb(0, 71, 187);
+  background: rgba(0, 71, 187, 0.1);
+  border: 1px solid rgba(0, 71, 187, 0.3);
+  border-radius: 10px;
+}
+
+.be {
+  width: 70px;
+  align-items: center;
+  padding: 2px 10px 3px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: rgb(0, 182, 79);
+  background: rgba(0, 71, 187, 0.1);
+  border: 1px solid rgba(0, 71, 187, 0.3);
+  border-radius: 10px;
+}
+.pro-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.pro-container > span {
+  margin-left: 15px;
+}
