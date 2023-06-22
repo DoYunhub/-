@@ -129,6 +129,10 @@ h2 {
   width: 550px;
   height: 250px;
 }
+.youtybe-img {
+  width: 550px;
+  height: 250px;
+}
 
 .fe {
   width: 70px;
@@ -161,4 +165,36 @@ h2 {
 }
 .pro-container > span {
   margin-left: 15px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.skill > b {
+  margin-left: 100px;
+  color: blue;
+}
+.name,
+.info {
+  margin-left: 100px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.css {
+  width: 75px;
+  height: 100px;
+}
+li > img {
+  margin-left: 50px;
+  width: 100px;
+  height: 100px;
+}
+li > p {
+  margin-left: 73px;
 }
